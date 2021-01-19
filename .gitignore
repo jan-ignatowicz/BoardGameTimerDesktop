@@ -156,4 +156,4 @@ fabric.properties
 
 
 # database file
-.db
+*.db

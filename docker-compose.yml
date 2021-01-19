@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  bgt:
+    image: bgt:1.0
+    container_name: bgt
+    environment:
+      - "DISPLAY=${IP}:0"
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
